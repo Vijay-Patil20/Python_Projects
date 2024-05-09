@@ -119,7 +119,7 @@ path=r"C:\Users\vp201\Untitled Folder\Bill.png"
 time.sleep(2) # Add a delay of 5 seconds
 
 # Send the bill image via WhatsApp using pywhatkit
-pywhatkit.sendwhats_image("+918000667207",r"C:\Users\vp201\Untitled Folder\Bill.png")
+pywhatkit.sendwhats_image("+91",r"C:\Users\vp201\Untitled Folder\Bill.png")
 
 Data.Prev_Units.loc[(i)]=Data.Cur_Units[(i)]
 Data.Prev_Reading.loc[(i)]=Data.Cur_Reading[i]
