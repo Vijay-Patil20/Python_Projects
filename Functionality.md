@@ -1,12 +1,18 @@
 **Code Explanation**
 Let's break down the code into sections and explain each part:
+
 **Imported Libraries**
 
 The code begins by importing the required libraries for various functionalities such as reading CSV files, generating PDFs, working with images, and sending WhatsApp messages.
+
 **Read the CSV File**
+
 The code reads the user data from a CSV file using the pd.read_csv() function and stores it in the Data variable. The CSV file contains information such as the user's name, address, customer number, meter number, previous reading, and current reading.
+
 **Input Meter Number**
+
 The code prompts the user to enter their meter number and stores it in the Meter_No variable.
+
 **Find Corresponding User Data**
 The code iterates over the rows of the Data DataFrame to find the row that matches the entered meter number. Once found, it stores the row index in the variable i.
 **Update Current Reading**
