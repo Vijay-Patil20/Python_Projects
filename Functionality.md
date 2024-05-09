@@ -1,8 +1,8 @@
 **Code Explanation**
+
 Let's break down the code into sections and explain each part:
 
 **Imported Libraries**
-
 The code begins by importing the required libraries for various functionalities such as reading CSV files, generating PDFs, working with images, and sending WhatsApp messages.
 
 **Read the CSV File**
