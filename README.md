@@ -1,4 +1,4 @@
-# Title: Electricity Bill Generator with User Data Management and WhatsApp Notification
+# Electricity Bill Generator with User Data Management and WhatsApp Notification
 
 Description:
 
