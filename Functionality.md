@@ -1,6 +1,7 @@
 **Code Explanation**
 Let's break down the code into sections and explain each part:
 **Imported Libraries**
+
 The code begins by importing the required libraries for various functionalities such as reading CSV files, generating PDFs, working with images, and sending WhatsApp messages.
 **Read the CSV File**
 The code reads the user data from a CSV file using the pd.read_csv() function and stores it in the Data variable. The CSV file contains information such as the user's name, address, customer number, meter number, previous reading, and current reading.
