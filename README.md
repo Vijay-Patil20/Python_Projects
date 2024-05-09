@@ -1,11 +1,9 @@
 # Electricity Bill Generator with User Data Management and WhatsApp Notification
 
-Description:
-
+**Description:**
 This Python script automates electricity bill generation, user data management, and WhatsApp notification for bill delivery. It efficiently calculates charges, updates user data, and sends the customized bill image via WhatsApp.
 
-Features:
-
+**Features:**
 User Data Management:
 Reads user data (name, address, etc.) from a CSV file.
 Updates current readings and units consumed for each billing cycle.
@@ -16,8 +14,8 @@ Bill Customization:
 Overlays user data and billing details on a template image using Pillow library.
 WhatsApp Notification:
 Sends the generated bill image to a specified WhatsApp number using pywhatkit.
-Requirements:
 
+**Requirements:**
 Python 3
 Libraries:
 pandas
@@ -27,8 +25,8 @@ Pillow (PIL Fork)
 datetime
 time
 pywhatkit
-Instructions:
 
+**Instructions:**
 Install Libraries:
 Bash
 pip install pandas Pillow datetime time pywhatkit
@@ -43,8 +41,8 @@ Run the Script:
 Execute the script using python electricity_bill_generator.py.
 Enter your meter number when prompted.
 Enter the current reading when prompted.
-Note:
 
+**Note:**
 This version removes the unused pdfkit library.
 Consider adding error handling for missing files or incorrect data formats.
 Ensure you have the necessary permissions to access and modify files.
@@ -53,8 +51,8 @@ Additional Considerations:
 Explore options for more secure data storage (e.g., encrypted databases) for real-world implementations.
 Implement user authentication for secure access to user data.
 Consider a more dynamic approach for bill template customization.
-Disclaimer:
 
+**Disclaimer:**
 This code is for educational purposes only. Use it responsibly and adapt it to your specific needs. Be mindful of legal and privacy considerations related to user data storage and communication.
 
 
