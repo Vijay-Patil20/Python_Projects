@@ -1,7 +1,7 @@
-Introduction
+**Introduction**
 The code is a Python script that generates an electricity bill based on user input. It reads user data from a CSV file, calculates the energy charge, tax, and total charge, updates the bill template with user data and billing details, and saves the modified bill as an image. Finally, it sends the bill image via WhatsApp using the pywhatkit library.
 
-Code Explanation
+**Code Explanation**
 Let's break down the code into sections and explain each part:
 Imported Libraries
 The code begins by importing the required libraries for various functionalities such as reading CSV files, generating PDFs, working with images, and sending WhatsApp messages.
